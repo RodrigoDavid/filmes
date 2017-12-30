@@ -1,0 +1,395 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1160px;
+  padding: 0 10px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+/*## Header ##*/
+header {
+  background: url('../images/banner-principal.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 630px;
+}
+
+header nav {
+  margin: 0;
+}
+
+header nav h1 {
+  text-indent: -10000px;
+  height: 0;
+  width: 0;
+}
+
+header nav ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+header nav ul li {
+  display: block;
+  height: 10px;
+  float: left;
+  margin: 10px 0 10px 50px;
+  margin-top: 48px;
+}
+
+header nav ul li a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+header nav ul li a:hover {
+  transition: border-color .50s;
+  border-bottom: 2px solid #e62117;
+}
+
+div#balde {
+  position: absolute;
+  background: url('../images/balde-pipoca.png');
+  width: 473px;
+  height: 633px;
+  left: 360px;
+  top: 100px;
+}
+
+div#balde h1 {
+  background: url('../images/logo.png');
+  background-repeat: no-repeat;
+  margin-top: 240px;
+  margin-left: 120px;
+  height: 240px;
+  width: 240px;
+  text-indent: -10000px;
+}
+
+/*## Footer ##*/
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 190px;
+  background: #000;
+  margin-top: 100px;
+  padding: 0;
+}
+
+footer ul {
+  float: left;
+  color: #d1e4ea !important;
+  padding: 0;
+  list-style-type: none;
+  width: 23%;
+  margin-right: 44px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+  width: 190px;
+}
+
+footer ul h1 {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+ul.social {
+  float: right;
+  width: 185px;
+  margin-top: 74px;
+}
+
+ul.social i {
+  font-size: 20px;
+  float: left;
+  margin-left: 37px;
+}
+
+i.fa.fa-facebook {
+  margin-left: 0;
+  width: 20px;
+  height: 20px;
+}
+
+i.fa.fa-facebook:hover {
+  transition: .45s;
+  color: #3b5998;
+}
+
+i.fa.fa-instagram:hover {
+  transition: .45s;
+  color: #bd3381;
+}
+
+i.fa.fa-youtube:hover {
+  transition: .45s;
+  color: #e62117;
+}
+
+i.fa.fa-linkedin:hover {
+  transition: .45s;
+  color: #1a84bc;
+}
+
+ul.social li a i {
+  transition: .45s;
+  color: #d1e4ea;
+}
+
+#copy {
+  clear: both;
+  float: right;
+  color: #d1e4ea;
+  margin: 26px 0 0 0;
+  font-size: 10px;
+}
+
+/*## ConteÃºdo ##*/
+.wrapper section {
+  margin-top: 130px;
+}
+
+.wrapper section h1 {
+  font-size: 40px;
+  font-weight: 100;
+  color: #343434;
+}
+
+.wrapper section p {
+  font-size: 25px;
+  color: #858585;
+  margin-top: 75px;
+}
+
+.filmes {
+  position: relative;
+  background: #000;
+  overflow: hidden;
+  right: 0;
+  left: 0;
+  height: 1365px;
+  margin-top: 97px;
+  z-index: 0;
+}
+
+.filmes #white {
+  width: 0;
+  height: 0;
+  margin-top: -1070px;
+  margin-left: 00px;
+  border-left: 0px solid transparent;
+  border-right: 2060px solid transparent;
+  border-bottom: 1100px solid #fff;
+  z-index: 1;
+}
+
+#poltronas {
+  position: absolute;
+  top: 320px;
+  left: 360px;
+}
+
+.filmes section {
+  color: red;
+}
+
+#post {
+  margin-top: 94px;
+  margin-bottom: 826px;
+  color: #fff;
+}
+
+#post .button {
+  position: absolute;
+  width: 160px;
+  height: 54px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 54px;
+  background: #a12524;
+  border: 1px solid #c71e1e;
+  margin-top: 220px;
+  margin-left: 878px;
+  z-index: 5;
+  cursor: pointer;
+}
+
+#post .button:hover {
+  transition: .45s;
+  background: #c71e1e;
+  border: 1px solid #a12524;
+}
+
+#post h1, #post p  {
+  color: #fff;
+}
+
+/*## FormulÃ¡rio ##*/
+.forms {
+  background: #000;
+  width: 100%;
+  color: #fff;
+  position: relative;
+  height: 950px;
+}
+
+form {
+  position: relative;
+  float: left;
+  margin-top: 50px;
+  height: 788px;
+  margin-right: 97px;
+}
+
+label[for="nome"] {
+  margin-top: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+form h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: 18px;
+}
+
+form input, textarea {
+  padding-left: 10px;
+  height: 50px;
+  border: 2px solid #fff;
+  background: #000;
+  color: #fff;
+  font-size: 30px;
+  width: 495px;
+}
+
+form textarea {
+  width: 495px;
+  height: 288px;
+  font-family: inherit;
+}
+
+input[type="submit"] {
+  width: 161px;
+  height: 54px;
+  background: #a22524;
+  border: 1px solid #c71e1e;
+  margin-top: 37px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  transition: .45s;
+  background: #c71e1e;
+  border: 1px solid #a22524;
+}
+.lorem {
+  float: left;
+  padding-left: 97px;
+  border-left: 2px solid #fff;
+  margin-top: 50px;
+  height: 788px;
+  width: 410px;
+}
+
+.lorem p {
+  margin-top: 50px;
+  width: 465px;
+}
+
+.logo-footer {
+  display: block;
+  position: absolute;
+  float: right;
+  height: 440px;
+  width: 440px;
+  bottom: -50px;
+  right: 375px;
+  background: url('../images/logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-indent: -10000px;
+}
+
+/*## ValidaÃ§Ã£o ##*/
+.confirm {
+  position: relative;
+  color: #80CBC4;
+  display: block;
+  margin-top: 50px;
+  padding: 15px;
+  text-align: center;
+  width: 630px;
+  border-radius: 3px;
+  border-bottom: 2px solid #ddd;
+  background: #eee;
+  text-shadow: 1px 1px 4px #ddd;
+}
+
+.confirm a, .confirm:visited {
+  position: absolute;
+  text-decoration: none;
+  color: #5c78b9;
+  float: left;
+  left: 0px;
+  top: 79px;
+  width: 86px;
+  height: 30px;
+  background: #eee;
+  line-height: 30px;
+  border-radius: 3px;
+  border-bottom: 1px solid #ddd;
+}
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 2px 0 3px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  opacity: 0;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
